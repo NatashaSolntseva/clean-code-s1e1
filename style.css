@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -116,20 +116,23 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.app__list-item > * {
+.app__list-item > .app__input_type_checkbox,
+.app__list-item > .app__task-label,
+.app__list-item > .app__input,
+.app__list-item > .app__button {
   vertical-align: middle;
 }
 
 .app__input_type_checkbox {
   margin: 0 10px;
 }
-.app__list-item > label {
+.app__list-item > .app__task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.app__list-item > input[type="text"] {
+.app__list-item > .app__input_type_edit {
   width: 226px;
 }
 
