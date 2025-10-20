@@ -4,14 +4,17 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .app__list {
   margin: 0;
   padding: 0px;
 }
+
 .app__list-item,
 .app__subtitle {
   list-style: none;
 }
+
 .app__input,
 .app__button {
   outline: none;
@@ -23,9 +26,11 @@
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -41,12 +46,15 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .app__title {
   display: none;
 }
+
 .app__subtitle_type_hidden {
   display: none;
 }
+
 .app__row-wrapper {
   display: flex;
 }
@@ -67,9 +75,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .app__button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .app__subtitle,
 .app__add-label {
@@ -94,6 +104,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .app__input:focus {
   color: #333;
 }
@@ -103,6 +114,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .app__input_type_add {
   width: 318px;
 }
@@ -116,6 +128,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .app__list-item > .app__input_type_checkbox,
 .app__list-item > .app__task-label,
 .app__list-item > .app__input,
@@ -126,12 +139,14 @@
 .app__input_type_checkbox {
   margin: 0 10px;
 }
+
 .app__list-item > .app__task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .app__list-item > .app__input_type_edit {
   width: 226px;
 }
@@ -141,6 +156,7 @@
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .app__button-icon:hover {
   transform: rotateZ(0);
 }
